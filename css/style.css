@@ -1,0 +1,142 @@
+body{
+  margin:0;
+  background-color:#F5F5F5;
+
+}
+
+#entete{
+   font-family:"Arial Black", Gadget, sans-serif;
+  font-size: 20px;
+   color: #FF0000;
+   line-height:2;
+   text-align: center;
+background-image:url('../img/entete.jpg');
+background-size: cover;
+background-position: center;
+height: 300px;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 20px;
+
+}
+#entete h1{
+  font-size:2em;
+  line-height: 1.2;
+}
+#section-a h1{
+  font-family: "Comic Sans MS", cursive, sans-serif;
+   font-size: 25px;
+   padding: 30px;
+   padding-left: 100px;
+}
+#section-b{
+  font-family: "Fantasy";
+margin-left: 100px;
+margin-right: 100px;
+position: relative;
+text-align: center;
+
+
+
+
+}
+#section-b .box-1{
+  color: Red;
+  font-weight: bold;
+  text-align: center;
+  font-size: 25px;
+  background-image:url('../img/box-1.jpg');
+  background-size: cover;
+
+ display: inline-block;
+ height: 400px;
+ width: 600px;
+  box-sizing: border-box;
+  padding:10px;
+  transition: all 0.6s linear;
+  border-radius: 10px;
+}
+#section-b .box-1:hover{
+border: 5px solid Black;
+
+}
+#section-b .box-2{
+  color: #FFFFFF;
+  font-weight: bold;
+  text-align: center;
+  font-size: 25px;
+  background-image:url('../img/box-7.gif');
+  background-size: 100% 100%;
+
+
+    display: inline-block;
+    height: 400px;
+    width: 600px;
+
+    box-sizing: border-box;
+    padding:10px;
+    transition: all 0.6s linear;
+    border-radius: 10px;
+  }
+  #section-b .box-2:hover{
+  border: 5px solid red;
+}
+
+
+
+
+
+#section-c{
+    font-family: "Fantasy";
+margin-left: 100px;
+margin-right: 100px;
+position: relative;
+text-align: center;
+padding: 10px;
+
+
+
+}
+#section-c .box-3{
+  color: #FFFFFF;
+  font-weight: bold;
+  text-align: center;
+  font-size: 25px;
+  background-image:url('../img/box-6.gif');
+  background-size: 120% 140%;
+
+ display: inline-block;
+ height: 400px;
+ width: 600px;
+  box-sizing: border-box;
+  padding:10px;
+  transition: all 0.6s linear;
+  border-radius: 10px;
+}
+#section-c .box-3:hover{
+border: 5px solid red;
+
+}
+#section-c .box-4{
+  color:Red;
+  font-weight: bold;
+  text-align: center;
+  font-size: 25px;
+  background-image:url('../img/box-5.jpg');
+  background-size: cover;
+
+
+    display: inline-block;
+    height: 400px;
+    width: 600px;
+
+    box-sizing: border-box;
+    padding:10px;
+    transition: all 0.6s linear;
+    border-radius: 10px;
+  }
+  #section-c .box-4:hover{
+  border: 5px solid Black;
+}
